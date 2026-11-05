@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0f4c7f" />
+  <title>Fracción Autónoma 4.0</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-btn" id="menuBtn" aria-label="Menú">☰</button>
+      <div class="brand">
+        <div class="brand-mark">¾</div>
+        <div>
+          <strong>Fracción Autónoma 4.0</strong>
+          <small>Ruta de aprendizaje</small>
+        </div>
+      </div>
+      <button class="avatar-btn" id="profileBtn" aria-label="Perfil">👤</button>
+    </header>
+
+    <main id="view" class="view"></main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <button data-route="home" class="nav-item active"><span>⌂</span><small>Inicio</small></button>
+      <button data-route="retos" class="nav-item"><span>⚑</span><small>Retos</small></button>
+      <button data-route="practica" class="nav-item"><span>✎</span><small>Práctica</small></button>
+      <button data-route="progreso" class="nav-item"><span>▥</span><small>Progreso</small></button>
+      <button data-route="mas" class="nav-item"><span>•••</span><small>Más</small></button>
+    </nav>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

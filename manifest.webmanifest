@@ -1,0 +1,10 @@
+{
+  "name":"Fracción Autónoma 4.0",
+  "short_name":"Fracción 4.0",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#f6fafc",
+  "theme_color":"#0f4c7f",
+  "description":"Aplicación educativa móvil para fortalecer el aprendizaje autónomo mediante problemas con números fraccionarios.",
+  "icons":[]
+}
